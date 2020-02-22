@@ -12,6 +12,7 @@ public class MenuController : MonoBehaviour
     public AudioSource MusicSource;
     public AudioSource ButtonAudioSource;
     public AudioClip ButtonAudioClip;
+	public Button ShopButton;
 
 	void Start()
     {
@@ -22,6 +23,7 @@ public class MenuController : MonoBehaviour
 	    
 	    PlayNowButton.onClick.AddListener(playNow);
 		MusicButton.onClick.AddListener(musicToggle);
+		ShopButton.onClick.AddListener(shop);
     }
 
     // Update is called once per frame
@@ -50,5 +52,10 @@ public class MenuController : MonoBehaviour
 		    PlayerPrefs.SetInt("music", 1);
 		    MusicSource.mute = false;
 	    }
+    }
+
+    void shop()
+    {
+	    SceneManager.LoadScene("Shop");
     }
 }
