@@ -6,7 +6,7 @@ using UnityEngine;
 public class ColumnPool : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int ColumnPoolSize = 5;
+    public int ColumnPoolSize = 7;
     private GameObject[] _columns;
     public float SpawnRate = 4f;
     public float ColumnMinY = -1f;
