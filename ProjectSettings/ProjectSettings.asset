@@ -103,6 +103,7 @@ PlayerSettings:
   xboxOneMonoLoggingLevel: 0
   xboxOneLoggingLevel: 1
   xboxOneDisableEsram: 0
+  xboxOneEnableTypeOptimization: 0
   xboxOnePresentImmediateThreshold: 0
   switchQueueCommandMemory: 1048576
   switchQueueControlMemory: 16384
@@ -734,10 +735,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 9409d4aa-baed-4b1a-9af3-3af8cac321fe
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: Flappy
+  organizationId: vinniehat
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
